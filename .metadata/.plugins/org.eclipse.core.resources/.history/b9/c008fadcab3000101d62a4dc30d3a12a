@@ -1,0 +1,9 @@
+
+function Validation()
+{
+	
+	if(document.regForm.textUsername.value=="")
+	{
+		alert("Please Enter UserName")
+	}
+}

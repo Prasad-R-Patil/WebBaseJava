@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="/MyApp/src/main/webapp/Resource/style.css">
+<script src="./Resource/App.js" type="text/javascript"></script>
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<h1>Registration Form</h1>
+
+
+
+<form action="welcome.html" method="get" onsubmit="return Validation()" nmae="regForm">
+
+<table border="1">
+
+<tr>
+<td>Enter User Name</td>
+
+<td><input type="text" name="textUsername"></td>
+</tr>
+
+<tr>
+<td>Enter Password</td>
+
+<td><input type="password" name="textPassword"></td>
+</tr>
+
+<tr>
+<td>Enter Email-Id</td>
+
+<td><input type="text" name="textEmail"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+
+<td>
+Male:<input type="radio" name="gender" value="male">
+Female:<input type="radio" name="gender" value="female">
+</td>
+</tr>
+
+<tr>
+<td>Age Group</td>
+
+<td>
+<select name="age">
+<option value="select" selected="selected" >Select</option>
+<option value="1-20" >1-20</option>
+<option value="21-25" >21-25</option>
+<option value="26-30" >26-30</option>
+<option value="31-35" >31-35</option>
+<option value="36-40" >36-40</option>
+<option value="41-45" >41-45</option>
+<option value="46-50" >46-50</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td> <input type="checkbox" name="term"> </td>
+
+<td>Agree Terms And Condition</td>
+</tr>
+
+<tr>
+<td> <input type="reset" value="Reset" > </td>
+
+<td> <input type="submit" value="Register" ></td>
+</tr>
+
+</table>
+
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search Form</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+          background: linear-gradient(45deg, rgb(231, 139, 139), rgb(245, 204, 129), rgb(248, 125, 116), rgb(241, 117, 204), rgb(236, 201, 103), rgb(238, 103, 182), violet);
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            width: 400px;
+            height: 400px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border: 2px solid #333;
+        }
+        .card-header {
+            background: #6a0dad;
+            color: white;
+            text-align: center;
+        }
+        .btn-primary {
+            background-color: #6a0dad;
+            border-color: #5a047e;
+            font-size: 18px;
+            width: 100%;
+        }
+        .form-check-input {
+            transform: scale(1.3); /* Enlarges radio buttons */
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="card-header">
+            <h3>Search Engine Form</h3>
+        </div>
+        <div class="card-body">
+            <form action="SearchServlet" method="post">
+                <div class="mb-3">
+                    <label class="form-label">Enter Data</label>
+                    <input type="text" name="textData" class="form-control" placeholder="Type here...">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Select Search Engine</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="engin" value="google" id="google">
+                        <label class="form-check-label" for="google">Google</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="engin" value="yahoo" id="yahoo">
+                        <label class="form-check-label" for="yahoo">Yahoo</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="engin" value="bing" id="bing">
+                        <label class="form-check-label" for="bing">Bing</label>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <input type="submit" value="Submit" class="btn btn-primary">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional, for interactive components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

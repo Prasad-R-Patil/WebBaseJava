@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<div>
+
+	<form action="SearchServlet" method="post">
+	
+	<label>Enter Data</label>
+	<input type="text " name="textData">
+	
+	<label>Search Engin</label>
+	
+	 Google :- <input type="radio" name="engin">
+	  Yahoo :- <input type="radio" name="engin">
+	   Bing :- <input type="radio" name="engin">
+	
+	 <input type="submit" value="submit">
+	
+	
+	</form>
+
+
+</div>
+</body>
+</html>

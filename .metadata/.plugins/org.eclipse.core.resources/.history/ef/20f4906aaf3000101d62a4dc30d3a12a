@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card Styling */
+.card {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Header Styling */
+.card-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Form Inputs */
+.form-control, .form-select {
+    border-radius: 5px;
+}
+
+/* Buttons */
+.btn {
+    width: 48%;
+}
+
+/* Checkbox Styling */
+.form-check-label {
+    font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .btn {
+        width: 100%;
+    }
+}
