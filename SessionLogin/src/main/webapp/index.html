@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 90%;
+      max-width: 400px;
+    }
+
+    h2 {
+      color: #0072ff;
+      margin-bottom: 25px;
+    }
+
+    .nav-links {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 30px;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #0072ff;
+      font-weight: bold;
+      padding: 10px 20px;
+      border: 2px solid #0072ff;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      background-color: #0072ff;
+      color: white;
+    }
+
+    .success-message {
+      font-size: 1.1em;
+      color: green;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <h2>Welcome!</h2>
+    <p class="success-message">Login</p>
+
+    <div class="nav-links">
+      <a href="login.html">Login</a>
+      <a href="servlet2">Profile</a>
+      <a href="servlet3">Logout</a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Success</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #00c6ff, #0072ff);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .welcome-box {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      text-align: center;
+      width: 80%;
+      max-width: 400px;
+      margin-bottom: 20px;
+    }
+
+    .welcome-box h2 {
+      color: #0072ff;
+      margin-bottom: 10px;
+    }
+
+    .success-message {
+      font-size: 1.1em;
+      color: green;
+      font-weight: bold;
+    }
+
+    .nav-box {
+      background-color: #f0f8ff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: #0072ff;
+      font-weight: bold;
+      padding: 10px 18px;
+      margin: 0 10px;
+      border: 2px solid #0072ff;
+      border-radius: 8px;
+      transition: 0.3s ease;
+      display: inline-block;
+    }
+
+    .nav-links a:hover {
+      background-color: #0072ff;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Welcome Message Box -->
+  <div class="welcome-box">
+    <h2>Welcome!</h2>
+    <p class="success-message">Login Successful ✅</p>
+  </div>
+
+  <!-- Navigation Links Box -->
+  <div class="nav-box">
+    <div class="nav-links">
+      <a href="login.html">Login</a>
+      <a href="servlet2">Profile</a>
+      <a href="servlet3">Logout</a>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -2,13 +2,11 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
-			<item value="sessionDemo"/>
 			<item value="com.app"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="sessionDemo"/>
 			<item value="SearchEngien"/>
 			<item value="SearchEngin"/>
 		</list>
@@ -28,6 +26,7 @@
 	</section>
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\group024\Desktop\Prasad\WebBaseJava\SessionLogin"/>
 			<item value="C:\Users\group024\Desktop\Prasad\WebBaseJava\FilterDemo"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -52,6 +51,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.app"/>
 			<item value="com.app.CookieDome"/>
 			<item value="com.app.CookieDemo"/>
 		</list>
@@ -59,6 +59,7 @@
 			<item value="com.app"/>
 		</list>
 		<list key="artifactId">
+			<item value="ResultApp"/>
 			<item value="CookieDome"/>
 			<item value="CookieDemo"/>
 		</list>

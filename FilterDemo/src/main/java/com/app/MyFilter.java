@@ -1,8 +1,6 @@
 package com.app;
 
-import java.io.IOException;
-import java.nio.file.DirectoryStream.Filter;
-
+import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.FilterConfig;
 import jakarta.servlet.ServletException;
@@ -10,6 +8,7 @@ import jakarta.servlet.ServletRequest;
 import jakarta.servlet.ServletResponse;
 import jakarta.servlet.annotation.WebFilter;
 import jakarta.servlet.http.HttpFilter;
+import java.io.IOException;
 
 /**
  * Servlet Filter implementation class MyFilter
@@ -57,12 +56,6 @@ public class MyFilter extends HttpFilter implements Filter {
 	public void init(FilterConfig fConfig) throws ServletException {
 		// TODO Auto-generated method stub
 		System.out.println("In init() of filter...");
-	}
-
-	@Override
-	public boolean accept(Object entry) throws IOException {
-		// TODO Auto-generated method stub
-		return false;
 	}
 
 }
