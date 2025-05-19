@@ -2,11 +2,15 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="com.app.jsp.tagDemo.i18n.resource"/>
+			<item value="com.app.jsp.tag"/>
 			<item value="com.app"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="tagDemo"/>
+			<item value="i18nDemo"/>
 			<item value="SearchEngien"/>
 			<item value="SearchEngin"/>
 		</list>
