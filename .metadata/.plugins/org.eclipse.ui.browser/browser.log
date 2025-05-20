@@ -110,3 +110,15 @@ May 19, 2025 17:20:50.30 [14460:1848:0519/172050.299:ERROR:google_apis\gcm\engin
 May 19, 2025 17:22:37.76 [14460:1848:0519/172237.761:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 May 19, 2025 17:25:58.75 [14460:1848:0519/172558.750:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 May 19, 2025 17:33:29.61 [14460:1848:0519/173329.617:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+May 20, 2025 22:24:13.34 NEW SESSION
+May 20, 2025 22:24:13.34 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 20, 2025 22:24:13.34 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 20, 2025 22:24:14.49 [1212:7992:0520/222414.491:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 20, 2025 22:24:16.62 [1212:13108:0520/222416.626:ERROR:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:179] Client is missing for kUser scope
+May 20, 2025 22:24:37.61 [1212:7992:0520/222437.612:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 20, 2025 22:25:36.42 [1212:7992:0520/222536.426:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 20, 2025 22:27:10.95 [1212:7992:0520/222710.950:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 20, 2025 22:28:30.96 [1212:13108:0520/222830.961:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:725] Message 1 rejected by interface blink.mojom.WidgetHost
+May 20, 2025 22:30:31.06 [1212:7992:0520/223031.066:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 20, 2025 22:38:00.82 [1212:7992:0520/223800.825:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT

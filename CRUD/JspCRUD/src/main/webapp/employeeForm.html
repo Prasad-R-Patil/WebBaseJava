@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee Form</title>
+</head>
+<body>
+<a href="viewEmployees.jsp">View Employees</a>
+<hr>
+<form action="addEmp.jsp" method="post">
+<table>
+<tr>
+<td>Enter Name:</td>
+<td><input type="text" name="name" ></td>
+</tr>
+<tr>
+<td>Enter Password:</td>
+<td><input type="password" name="password"></td>
+</tr>
+<tr>
+<td>ENter Email-Id:</td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr>
+<td>Select Gender:</td>
+<td>
+<input type="radio" name="gender" value="male">Male
+<input type="radio" name="gender" value="female">Female
+</td>
+</tr>
+<tr>
+<td>Select Country:</td>
+<td>
+<select name="country">
+<option>India</option>
+<option>USA</option>
+<option>France</option>
+<option>Germany</option>
+</select>
+</td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value="Add Employee"></td>
+</tr>
+
+</table>
+</form>
+</body>
+</html>

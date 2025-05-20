@@ -6,6 +6,15 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\user\Desktop\WebBaseJava\Studentjsp"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\SQLQuery"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\EmployeeCRUD"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\JSPDemo4"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\JSPDemo2"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\JSPDemo1"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\HBFjsp"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\CustomerJSTL"/>
+			<item value="C:\Users\user\Desktop\WebBaseJava\DivideJSP"/>
 			<item value="C:\Users\user\Desktop\WebBaseJava\sessionDemo"/>
 			<item value="C:\Users\user\Desktop\WebBaseJava\SessionLogin"/>
 			<item value="C:\Users\user\Desktop\WebBaseJava\MyServletConfig"/>
