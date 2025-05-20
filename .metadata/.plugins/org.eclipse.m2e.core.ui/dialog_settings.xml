@@ -2,13 +2,14 @@
 <section name="Workbench">
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="com.app"/>
 			<item value="com.app.jsp.tagDemo.i18n.resource"/>
 			<item value="com.app.jsp.tag"/>
-			<item value="com.app"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="JSPDemo3"/>
 			<item value="tagDemo"/>
 			<item value="i18nDemo"/>
 			<item value="SearchEngien"/>
@@ -43,7 +44,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="internal"/>
+		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -63,6 +64,7 @@
 			<item value="com.app"/>
 		</list>
 		<list key="artifactId">
+			<item value="JSPDemo3"/>
 			<item value="ResultApp"/>
 			<item value="CookieDome"/>
 			<item value="CookieDemo"/>
