@@ -9,6 +9,8 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="Todo-List"/>
+			<item value="JSPUserPass"/>
 			<item value="JSPDemo3"/>
 			<item value="tagDemo"/>
 			<item value="i18nDemo"/>
@@ -44,7 +46,7 @@
 		</list>
 	</section>
 	<section name="MavenProjectWizardArchetypePage">
-		<item key="catalog" value="https://repo1.maven.org/maven2/archetype-catalog.xml"/>
+		<item key="catalog" value="internal"/>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
 			<item value="[artifactId]-TRUNK"/>
@@ -64,6 +66,7 @@
 			<item value="com.app"/>
 		</list>
 		<list key="artifactId">
+			<item value="HB-one-to-one-uni"/>
 			<item value="JSPDemo3"/>
 			<item value="ResultApp"/>
 			<item value="CookieDome"/>

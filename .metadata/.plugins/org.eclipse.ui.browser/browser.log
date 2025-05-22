@@ -122,3 +122,26 @@ May 20, 2025 22:27:10.95 [1212:7992:0520/222710.950:ERROR:google_apis\gcm\engine
 May 20, 2025 22:28:30.96 [1212:13108:0520/222830.961:ERROR:mojo\public\cpp\bindings\lib\interface_endpoint_client.cc:725] Message 1 rejected by interface blink.mojom.WidgetHost
 May 20, 2025 22:30:31.06 [1212:7992:0520/223031.066:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
 May 20, 2025 22:38:00.82 [1212:7992:0520/223800.825:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+May 22, 2025 19:16:21.16 NEW SESSION
+May 22, 2025 19:16:21.17 [2584:8088:0522/191621.163:ERROR:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:179] Client is missing for kUser scope
+May 22, 2025 19:16:21.59 [2584:5548:0522/191621.590:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:16:22.11 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2025 19:16:22.14 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 22, 2025 19:16:44.94 [2584:5548:0522/191644.945:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:17:41.51 [2584:5548:0522/191741.509:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:19:38.92 [2584:5548:0522/191938.921:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:23:08.01 [2584:5548:0522/192308.010:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:38:31.43 [14896:15940:0522/193831.438:ERROR:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:179] Client is missing for kUser scope
+May 22, 2025 19:38:31.96 [14896:6820:0522/193831.965:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:38:32.14 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2025 19:38:32.14 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
+May 22, 2025 19:38:54.53 [14896:6820:0522/193854.532:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:39:49.68 [14896:6820:0522/193949.685:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 19:41:16.37 [14896:6820:0522/194116.371:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+
+May 22, 2025 21:38:26.00 NEW SESSION
+May 22, 2025 21:38:26.01 [6164:7180:0522/213826.002:ERROR:chrome\browser\policy\cloud\fm_registration_token_uploader.cc:179] Client is missing for kUser scope
+May 22, 2025 21:38:26.48 [6164:5300:0522/213826.485:ERROR:google_apis\gcm\engine\registration_request.cc:291] Registration response error message: DEPRECATED_ENDPOINT
+May 22, 2025 21:38:26.90 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 22, 2025 21:38:26.92 Attempting to use a delegate that only supports static-sized tensors with a graph that has dynamic-sized tensors (tensor#-1 is a dynamic-sized tensor).
