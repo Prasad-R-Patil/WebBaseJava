@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd"> <!-- bean definitions here -->
+
+
+		<context:annotation-config/>
+	
+    <!-- bean definitions here -->
+    
+    
+<!--        <bean name="human" class="com.app.Human" autowire="constructor" ></bean>    -->
+<!-- 		<bean name="human" class="com.app.Human" autowire="byName" ></bean>         -->
+
+<!-- 		<bean name="human" class="com.app.Human" autowire="byType" ></bean> 		-->
+	
+		
+			
+			<bean name="human" class="com.app.Human" ></bean>
+			<bean name="heart" class="com.app.Heart"> </bean>
+
+</beans>

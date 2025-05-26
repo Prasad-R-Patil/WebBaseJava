@@ -17,5 +17,10 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToOne"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.app.entity.Instructor"/>
     <fullyQualifiedTypeName name="com.app.entity.InstructorDetails"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.jdbc.interceptors.SessionAssociationInterceptor"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
 </qualifiedTypeNameHistroy>
