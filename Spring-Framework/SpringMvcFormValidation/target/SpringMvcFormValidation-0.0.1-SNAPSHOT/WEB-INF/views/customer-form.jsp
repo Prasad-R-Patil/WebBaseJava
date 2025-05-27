@@ -1,29 +1,23 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-    <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
+    <%@ taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
-<style type="text/css">
-.error{color:red}
-</style>
 </head>
 <body>
-
-<i>Fill out a form where fields marked with an asterisk (*) are required?</i>
-
-<form:form action="ProcessForm" modelAttribute="Customer">
-
-Enter First Name : <form:input path="firstName"/>
-<br>
-Enter Last Name(*) : <form:input path="lastName"/>
-<form:errors path="lastName" cssClass="error"/>
-<br>
-
-<input type="submit" value="Submit"/>
+<i>Fill out the form Asterisk(*) means required</i>
+<br><br>
+<form:form action="ProcessForm" modelAttribute="customer">
+Enter FirstName<sup style="color:red">*</sup>:<form:input path="firstName"/>
+<form:errors path="firstName" cssClass="error"></form:errors>
+<br><br>
+Enter LastName<sup style="color:red">*</sup>:<form:input path="lastName"/>
+<form:errors path="lastName" cssClass="error"></form:errors>
+<br><br>
+<input type="submit" value="Submit">
 </form:form>
-
 </body>
 </html>

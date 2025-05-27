@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="Customer/ShowForm">StudentForm</a>
+<a href="Student/ShowForm">StudentForm</a>
 </body>
 </html>
