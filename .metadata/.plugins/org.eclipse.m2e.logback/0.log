@@ -5517,3 +5517,4 @@ Caused by: java.io.EOFException: input contained no data
 2025-05-23 20:49:52,104 [Worker-46: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user\Desktop\WebBaseJava\HB-one-to-one-uni\src\test\resources
 2025-05-23 21:35:15,828 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@7bb05a40{STOPPING}[12.0.3,sto=0]
 2025-05-23 21:35:15,832 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@14e31084{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-05-30 19:01:30,954 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
